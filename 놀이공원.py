@@ -25,7 +25,7 @@ else:
   for i in x:
     count += (result - 1) // i
   for i in range(K):
-    #t시간에 탑승한 아이
+    #t시간에 탑승한 아이를 구할 때, 총 count를 구하고 그 떄의 index를 구하는 것이 핵심이다.
     if result % x[i] == 0:
       count += 1
     if count == N:
